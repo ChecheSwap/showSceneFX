@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" mouseTransparent="true" prefHeight="168.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newWindow.GenericWindowController">
+   <children>
+      <Label fx:id="lblMsg" layoutX="28.0" layoutY="14.0" prefHeight="70.0" prefWidth="316.0" text="Child Window" textFill="RED">
+         <font>
+            <Font size="48.0" />
+         </font></Label>
+      <TextField fx:id="txt" alignment="TOP_CENTER" editable="false" layoutX="21.0" layoutY="112.0" prefHeight="25.0" prefWidth="316.0">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

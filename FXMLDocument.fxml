@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="form" prefHeight="448.0" prefWidth="552.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="app.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="135.0" layoutY="190.0" onAction="#handleButtonAction" onMouseClicked="#btn1_click" prefHeight="42.0" prefWidth="283.0" text="&gt;&gt;Open New FXML&lt;&lt;" textAlignment="CENTER" textFill="#3008d0">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="82.0" layoutY="244.0" minHeight="16" minWidth="69" prefHeight="50.0" prefWidth="156.0" textOverrun="CLIP" />
+      <Label fx:id="lbl1" layoutX="15.0" layoutY="287.0" text="Ventanas Activas:" textFill="#ffbb00">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtactivas" alignment="TOP_CENTER" editable="false" layoutX="205.0" layoutY="279.0" prefHeight="51.0" prefWidth="333.0" text="Unknow">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnCloseAll" layoutX="135.0" layoutY="383.0" onAction="#handleButtonAction" onMouseClicked="#btnclose_click" prefHeight="35.0" prefWidth="283.0" text="&gt;&gt;Close FXML'S&lt;&lt;" textAlignment="CENTER" textFill="#cf0808">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="imagev" fitHeight="150.0" fitWidth="200.0" layoutX="196.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../DESCARGAS/javafx.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
